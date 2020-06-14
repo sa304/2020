@@ -1,0 +1,182 @@
+1) ¿Cúales son los tipos de "Tiempos"?
+Tiempo Universal Coordinado "UTC"
+Tiempo Universal
+Tiempo GPS "GPST"
+Tiempo Atómico Internacional "TAI"
+Todas las alternativas son correctas
+
+2) ¿Cúal es la diferencia entre el Tiempo Universal Coordinado "UTC" y el Tiempo Universal?
+La escala de Tiempo Universal Coordinado "UTC"
+La unidad del sistema es el segundo atómico
+Aunque está próximo al Tiempo Universal, cada cierto tiempo se modifica su escala en 1 segundo
+Todas las alternativas son correctas
+
+3)  ¿Cúal es la diferencia entre el Tiempo GPS y el Tiempo Atómico Internacional "TAI"?
+El Tiempo GPS "GPST" tiene una diferencia constante de 19 segundos con el Tiempo Atómico Internacional "TAI" 
+
+4) ¿Cuando coincidió el Tiempo GPS GPST" con el Tiempo Universal Coordinado "UTC"?
+Fue coincidente en la época 6.0 de Enero de 1980 "Época estándar"
+
+5) ¿Cómo se obtiene el Tiempo Universal Coordinado "UTC"?
+A partir de 250 relojes de cesio y máser de hidrógeno situados en 65 laboratorios distribuidos en todo el mundo
+Con la aplicación de un conjunto de algoritmos para garantizar un tiempo uniforme
+No se determina en "tiempo real", se genera con un retraso de un mes y medio
+Todas las alternativas son correctas
+
+6) ¿Cúales son las características del Tiempo GPS "GPST"?
+Es un tiempo de escala continua "Sin segundos de salto"
+Es definido por el Segmento de Control, en base a relojes atómicos ubicados en la Estación Maestra "SIGLAS" y a bordo de los satélites
+
+7) ¿Cúales son las características de la "Época"?
+Es el momento o fecha de un evento
+Se determina en función del día GPS del calendario dividido entre el número de días totales del año
+a y b son correctas
+
+8) ¿Cúantas "Épocas" existen?
+Época de Observación
+Época de Ajuste
+Época de Referencia 
+Todas las alternativas son correctas
+
+9) ¿Qué es la "Época de Observación"?
+Momento en el que se realiza la observación
+
+10) ¿Qué es la "Época de Ajuste"?
+Momento o fecha a la que se refiere la Época de Observación
+
+11) ¿Qué es la "Época de Referencia"?
+Media de una serie de Momentos o Fechas de Observación consecutivas
+
+12) ¿Qué es un "Sistema de Coordenadas"?
+Conjunto de reglas matemáticas que especifican cómo las coordenadas deben ser asignadas a los puntos
+
+13) ¿Qué tipo de Sistemas de Coordenadas existen?
+Coordenadas ECEF "Tridimensionales"
+Coordenadas Geodésicas
+Coordenadas Proyectadas
+Coordenadas Locales
+
+14) ¿Cúales son las características del "Datum"?
+Conjunto de parámetros que definen un Sistema de Coordenadas Geodésicas
+Se asocia a la Posición, Orientación, Tamaño y Forma de una figura geométrica "Elipsoide", lo más coincidente con la figura de la tierra "Geoide" 
+Se define a nivel local 
+Todas las alternativas son correctas
+
+15) ¿Qué tipo de Datum existen?
+Datum Geodésico
+Datum Vertical
+Datum Local
+Todas las alternativas son correctas
+
+16) ¿Cúales son las características de un "Datum Geodésico"?
+Describe la relación entre un Sistema de coordenadas con la Tierra
+Incluye una definición de un Elipsoide
+a y b son correctas
+
+17) ¿Cúales son las características de un "Datum Vertical"?
+Es la relación entre las Altitudes con la Gravedad de la Tierra
+Está referido al nivel medio del mar basado en observaciones del nivel de agua en largo periodo de tiempo
+a y b son correctas
+
+18) ¿Qué es un "Datum Local"?
+Describe la relación entre un Sistema de Coordenadas con una Referencia Local
+
+19) ¿Cómo se pasa de un Datum a otro?
+Un Datum determinado puede ser convertido en otro Datum mediante Transformaciones "Helmert 3D"
+
+20) ¿Cómo se determinó el "Marco de Referencia Celeste"?
+Fué determinado a partir de un conjunto de coordenadas precisas de Fuentes Extra-Galácticas, "Puntos lejanos del universo"
+
+21) ¿Cómo se determina el "Marco de Referencia Terrestre"?
+Se determina a través de coordenadas de una serie de puntos sobre la tierra que sirven de referencia
+Éstas estaciones son equipadas con sistemas VLBI, LLR, SLR y GNSS
+
+22) ¿Cúal es la diferencia entre WGS84 e ITRF?
+El WGS84 fu establecido mediante observaciones Doppler de los 
+satélites TRANSIT y Los ITRF son observaciones SLR y VLBI
+
+23) ¿Cúales son las características del "LOCAL TIE"?
+El LOCAL TIE enlaza las observaciones de cada disciplina a la red microgeodésica.
+Permite observar y ajustar los centros geométricos de los instrumentos de medición (GPS, VLBI, SLR, DORIS) en una estación fundamental geodésica.
+
+24) ¿Cúales son las características del ITRF?
+Es la materialización del ITRS (Sistema Internacional de Referencia Terrestre) 
+Compuesto por estaciones en tierra con coordenadas dadas para una época fija y sus variaciones en el tiempo (velocidades)
+Sirve para que el IGS determine las orbitas precisas de los satélites GPS
+
+25) ¿Desde cúando WGS84 es sinónimo de ITRF?
+WGS84 = ITRF desde enero del 2002
+
+26) ¿Cúales son las características del IGS?
+El IGS es el servicio internacional GNSS
+Proporciona en base a disponibilidad abierta, los datos, productos y servicios GNSS de la más alta calidad
+Contribuye, amplía y densifica el Marco de Referencia Terrestre Internacional (ITRF)
+
+27) ¿En qué se apoya el IGS?
+Se apoya en el marco de referencia terrestre
+Observación de la tierra e Investigación
+Posicionamiento, Navegación y Sincronización
+Todas las alternativas son correctas
+
+28) ¿Qué productos incluye el IGS?
+Efemérides satelitales GNSS
+Parámetros de rotación terrestre
+Coordenadas y Velocidades de la estación de Seguimiento Global
+Información del reloj de la Estación satélite y de seguimiento 
+Estimaciones del retraso de la ruta troposférica, cénit
+Todas las alternativas son correctas
+
+29) ¿Cómo se mezclan ITRF e IGS?
+Proporciona un marco o dato preciso y consistente para hacer referencia a las posiciones en diferentes momentos y en diferentes lugares del mundo.
+La realización IGS de ITRF, que amplía significantemente el número de estaciones, hace que el marco de referencia sea más accesible
+
+30) ¿Qué es un Punto Fiducial?
+Es una Estación Geodésica con coordenadas en época y marco definido. 
+
+31) ¿Cúal es la función del Punto Fiducial?
+A partir de ésta estación se dotan de coordenadas a las demás estaciones de una red geodésica.
+
+32) ¿Qué es un Cambio de Época?
+Considera el tiempo como una variable que influye sobre el desplazamiento de las coordenadas, debido a la dinámica de la corteza terrestre
+
+33) ¿Qué se debe considerar para ir de una Época a otra?
+Marco de Referencia inicial de las coordenadas
+El cambio de ITRF (milimétrico)
+Los saltos sísmicos de tiempo t0 a t1
+La velocidad
+Según Antenas o VEMOS 
+
+34) ¿Cúales son las características del Cambio de Época?
+Éste proceso se puede realizar en 2 sentidos, desde t0 a t1 o de t1 a t2.
+Siempre hay que tener en cuenta llevar las coordenadas al Marco de Referencia inicial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

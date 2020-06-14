@@ -20,21 +20,204 @@
     tu puntaje al final * Realizar de una sola vez</h6>
   <br>
   <form name="form" onsubmit="return score()">
-
     <div class="borde bg-light mt-5 pl-3 pt-3 pb-3 pr-3 text-success rounded">
-      <h6>1- ¿Cúales son las características del "Segmento Espacial"</h6>
+      <h6>1- ¿Cúales son los tipos de "Tiempos"?</h6>
       <!--img class="fotito w-100 m-h100"
         src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/btg/tech.batanga.com/files/Google-construira-una-red-de-internet-satelital-1.jpg"
         alt="foto"-->
       <hr>
       <div class="text-primary">
-        <input type="radio" name="q1" value="a" class="mr-3">a- Formado por las Constelaciones con los satélites
-        suficientes para garantizar que los usuarios dispongan de observaciones simultáneas
+        <input type="radio" name="q1" value="a" class="mr-3">a- Tiempo Universal Coordinado "UTC"
         <hr>
-        <input type="radio" name="q1" value="b" class="mr-3">b- Requiere de al menos 4 satélites en cualquier momento y
-        lugar de la superficie de la tierra
+        <input type="radio" name="q1" value="b" class="mr-3">b- Tiempo Universal
         <hr>
-        <input type="radio" name="q1" value="c" class="mr-3">c- a y b son correctas
+        <input type="radio" name="q1" value="c" class="mr-3">c- Tiempo GPS "GPST"
+        <hr>
+        <input type="radio" name="q1" value="d" class="mr-3">d- Tiempo Atómico Internacional "TAI"
+        <hr>
+        <input type="radio" name="q1" value="e" class="mr-3">e- Todas las alternativas son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>2- ¿Cúal es la diferencia entre el Tiempo Universal Coordinado "UTC" y el Tiempo Universal?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q2" value="a" class="mr-3">a- La escala de Tiempo Universal Coordinado "UTC"
+        <hr>
+        <input type="radio" name="q2" value="b" class="mr-3">b- La unidad del sistema es el segundo atómico
+        <hr>
+        <input type="radio" name="q2" value="c" class="mr-3">c- Aunque está próximo al Tiempo Universal, cada cierto tiempo se modifica su escala en 1 segundo
+        <hr>
+        <input type="radio" name="q2" value="d" class="mr-3">d- Todas las alternativas son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>3- ¿Cúal es la diferencia entre el Tiempo GPS y el Tiempo Atómico Internacional "TAI"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q3" value="a" class="mr-3">a- El Tiempo GPS "GPST" tiene una diferencia constante de 19 segundos con el Tiempo Atómico Internacional "TAI"
+        <hr>
+        <input type="radio" name="q3" value="b" class="mr-3">b- otro
+        <hr>
+        <input type="radio" name="q3" value="c" class="mr-3">c- otro
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>4- ¿Cuando coincidió el Tiempo GPS GPST" con el Tiempo Universal Coordinado "UTC"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q4" value="a" class="mr-3">a- otro
+        <hr>
+        <input type="radio" name="q4" value="b" class="mr-3">b- Fue coincidente en la época 6.0 de Enero de 1980 "Época estándar"
+        <hr>
+        <input type="radio" name="q4" value="c" class="mr-3">c- otro
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>5- ¿Cómo se obtiene el Tiempo Universal Coordinado "UTC"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q5" value="a" class="mr-3">a- A partir de 250 relojes de cesio y máser de hidrógeno situados en 65 laboratorios distribuidos en todo el mundo
+        <hr>
+        <input type="radio" name="q5" value="b" class="mr-3">b- Con la aplicación de un conjunto de algoritmos para garantizar un tiempo uniforme
+        <hr>
+        <input type="radio" name="q5" value="c" class="mr-3">c- No se determina en "tiempo real", se genera con un retraso de un mes y medio
+        <hr>
+        <input type="radio" name="q5" value="d" class="mr-3">d- Todas las alternativas son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>6- ¿Cúales son las características del Tiempo GPS "GPST"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q6" value="a" class="mr-3">a- Es un tiempo de escala continua "Sin segundos de salto"
+        <hr>
+        <input type="radio" name="q6" value="b" class="mr-3">b- Es definido por el Segmento de Control, en base a relojes atómicos ubicados en la Estación Maestra "SIGLAS" y a bordo de los satélites
+        <hr>
+        <input type="radio" name="q6" value="c" class="mr-3">c- a y b son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>7- ¿Cúales son las características de la "Época"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q7" value="a" class="mr-3">a- Es el momento o fecha de un evento
+        <hr>
+        <input type="radio" name="q7" value="b" class="mr-3">b- Se determina en función del día GPS del calendario dividido entre el número de días totales del año
+        <hr>
+        <input type="radio" name="q7" value="c" class="mr-3">c- a y b son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>8- ¿Cúantas "Épocas" existen?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q8" value="a" class="mr-3">a- Época de Observación
+        <hr>
+        <input type="radio" name="q8" value="b" class="mr-3">b- Época de Ajuste
+        <hr>
+        <input type="radio" name="q8" value="c" class="mr-3">c- Época de Referencia
+        <hr>
+        <input type="radio" name="q8" value="d" class="mr-3">d- Todas las alternativas son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>9- ¿Qué es la "Época de Observación"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q9" value="a" class="mr-3">a- Momento en el que se realiza la observación
+        <hr>
+        <input type="radio" name="q9" value="b" class="mr-3">b- otro
+        <hr>
+        <input type="radio" name="q9" value="c" class="mr-3">c- otro
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>10- ¿Qué es la "Época de Ajuste"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q10" value="a" class="mr-3">a- otro
+        <hr>
+        <input type="radio" name="q10" value="b" class="mr-3">b- Momento o fecha a la que se refiere la Época de Observación
+        <hr>
+        <input type="radio" name="q10" value="c" class="mr-3">d- otro
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>11- ¿Qué es la "Época de Referencia"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q11" value="a" class="mr-3">a- Media de una serie de Momentos o Fechas de Observación consecutivas
+        <hr>
+        <input type="radio" name="q11" value="b" class="mr-3">b- otro
+        <hr>
+        <input type="radio" name="q11" value="c" class="mr-3">c- otro
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>12- ¿Qué es un "Sistema de Coordenadas"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q12" value="a" class="mr-3">a- otro
+        <hr>
+        <input type="radio" name="q12" value="b" class="mr-3">b- Conjunto de reglas matemáticas que especifican cómo las coordenadas deben ser asignadas a los puntos
+        <hr>
+        <input type="radio" name="q12" value="c" class="mr-3">c- otro
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>13- ¿Qué tipo de Sistemas de Coordenadas existen?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q13" value="a" class="mr-3">a- Coordenadas ECEF "Tridimensionales"
+        <hr>
+        <input type="radio" name="q13" value="b" class="mr-3">b- Coordenadas Geodésicas
+        <hr>
+        <input type="radio" name="q13" value="c" class="mr-3">c- Coordenadas Proyectadas
+        <hr>
+        <input type="radio" name="q13" value="d" class="mr-3">d- Coordenadas Locales
+         <hr>
+         <input type="radio" name="q13" value="e" class="mr-3">e- Todas las alternativas son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>14- ¿Cúales son las características del "Datum"?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q11" value="a" class="mr-3">a- Conjunto de parámetros que definen un Sistema de Coordenadas Geodésicas
+        <hr>
+        <input type="radio" name="q11" value="b" class="mr-3">b- Se asocia a la Posición, Orientación, Tamaño y Forma de una figura geométrica "Elipsoide", lo más coincidente con la figura de la tierra "Geoide"
+        <hr>
+        <input type="radio" name="q11" value="c" class="mr-3">c- Se define a nivel local
+        <hr>
+        <input type="radio" name="q11" value="d" class="mr-3">d- Todas las alternativas son correctas
+      </div>
+    </div>
+
+    <div class="borde bg-light mt-3 pl-3 pt-3 pb-3 pr-3 text-success rounded">
+      <h6>15- ¿Qué tipo de Datum existen?</h6>
+      <hr>
+      <div class="text-primary">
+        <input type="radio" name="q11" value="a" class="mr-3">a- Datum Geodésico
+        <hr>
+        <input type="radio" name="q11" value="b" class="mr-3">b- Datum Vertical
+        <hr>
+        <input type="radio" name="q11" value="c" class="mr-3">c- Datum Local
+         <hr>
+         <input type="radio" name="q11" value="d" class="mr-3">d- Todas las alternativas son correctas
       </div>
     </div>
    
@@ -47,6 +230,8 @@
   </form>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 <script src="script.js"></script>
 
