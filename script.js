@@ -40,7 +40,16 @@ function score() {
     q22,
     q23,
     q24,
-    q25
+    q25,
+    q26,
+    q27,
+    q28,
+    q29,
+    q30,
+    q31,
+    q32,
+    q33,
+    q34
   ];//ultima no lleva coma
 
   var answers = [
