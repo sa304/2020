@@ -92,7 +92,7 @@ Se determina a través de coordenadas de una serie de puntos sobre la tierra que 
 Éstas estaciones son equipadas con sistemas VLBI, LLR, SLR y GNSS
 
 22) ¿Cúal es la diferencia entre WGS84 e ITRF?
-El WGS84 fu establecido mediante observaciones Doppler de los 
+El WGS84 fué establecido mediante observaciones Doppler de los 
 satélites TRANSIT y Los ITRF son observaciones SLR y VLBI
 
 23) ¿Cúales son las características del "LOCAL TIE"?
@@ -100,9 +100,10 @@ El LOCAL TIE enlaza las observaciones de cada disciplina a la red microgeodésica
 Permite observar y ajustar los centros geométricos de los instrumentos de medición (GPS, VLBI, SLR, DORIS) en una estación fundamental geodésica.
 
 24) ¿Cúales son las características del ITRF?
-Es la materialización del ITRS (Sistema Internacional de Referencia Terrestre) 
-Compuesto por estaciones en tierra con coordenadas dadas para una época fija y sus variaciones en el tiempo (velocidades)
+Es la materialización del ITRS "Sistema Internacional de Referencia Terrestre"
+Compuesto por estaciones en tierra con coordenadas dadas para una época fija y sus variaciones en el tiempo "velocidades"
 Sirve para que el IGS determine las orbitas precisas de los satélites GPS
+Todas las alternativas son correctas
 
 25) ¿Desde cúando WGS84 es sinónimo de ITRF?
 WGS84 = ITRF desde enero del 2002
